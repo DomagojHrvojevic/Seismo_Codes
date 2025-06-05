@@ -4,9 +4,9 @@ Python and Bash codes used in seismological data quality control, DAS measured d
 ## Descriptions:
 
 ### DATA_QUALITY_CONTROL
-  Set of codes used to develop quality control report of all active/chosen seismological stations.__
-  **Codes:**
-    - ```DATA_QC.sh``` -> Bash code 
+  Set of codes used to develop quality control report of all active/chosen seismological stations.  
+  **Codes:**  
+    - ```DATA_QC.sh``` -> Bash code  
 
     
 ### DATA_SETUP_CODES
