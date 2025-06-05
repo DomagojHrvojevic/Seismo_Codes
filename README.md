@@ -16,29 +16,48 @@ Python and Bash codes used in seismological data quality control, DAS measured d
   * `smartsolo_qc_obspy.py:` Python code that generate a pdf quality control analysis report of collected SmartSolo seismological stations data.
   * `stanice_backup_qc.py:` Python code for creating a pdf file of quality control analysis of seismological stations backup data.
   * `stanice_backup_qc_obspy.py:` Python code for generating PSD/PDF graphs with **OBSPY** for stations that haven't got one created from **ISPAQ**.
+<kbd>
+  <p align="center">
+    <img src="https://github.com/user-attachments/assets/40bf37cb-4ceb-4056-acdd-afd699d5b4d6" width="20%">
+    <img src="https://github.com/user-attachments/assets/fb54590e-7b1e-4966-8cd0-02e6796a1d50" width="20%">
+    <img src="https://github.com/user-attachments/assets/a1681e60-9037-49a1-b38a-252d6f167197" width="20%">
+    <img src="https://github.com/user-attachments/assets/34f8db1d-f26f-41ea-805f-da4a737485d4" width="20%">
+    <img src="https://github.com/user-attachments/assets/a1f8350c-e5eb-4438-be28-bba07b01f0dd" width="20%">
+    <img src="https://github.com/user-attachments/assets/c8e55808-a028-4dd0-8072-79cb99528326" width="20%">
+    <img src="https://github.com/user-attachments/assets/62316ef2-1eda-4b2d-85fb-64c9adfc62a6" width="20%">
+    <img src="https://github.com/user-attachments/assets/465c1858-9eea-42e0-aec0-23e0eea5677e" width="20%">
+  </p>
+</kbd>
 
-    
-### DATA_SETUP_CODES
+  <p align="center">
+    <a href="WEEKLY_REPORT_17_3_2025__23_3_2025.pdf"><strong>An example of weekly quality control report</strong></a>
+  </p>
+
+
+
+
+
+## DATA_SETUP_CODES
   Codes used to organize data files (renaming, selecting, converting).
 
 
-### FEBUS_DAS_CODES
+## FEBUS_DAS_CODES
   Programming Codes used to analyze data collected by DAS (Distributed Acoustic Sensing) instrument.
 
 
-### ISPAQ_CODES
+## ISPAQ_CODES
   Codes used to evaluate status of active seismological stations by using _ISPAQ_ python library.
 
 
-### MSEED_FILES_ANALYSIS
+## MSEED_FILES_ANALYSIS
   Codes for plotting, reading, naming, merging, formatting mseed data files.
 
 
-### STATIONS_DATABASE
+## STATIONS_DATABASE
   Codes for creating database of seismological stations metadata.
 
 
-### STATIONS_VISUALIZATION
+## STATIONS_VISUALIZATION
   Codes for visualization of seismological stations on geospatial maps.
 
 
