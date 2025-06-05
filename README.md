@@ -4,7 +4,7 @@ Python and Bash codes used in seismological data quality control, DAS measured d
 ## Descriptions:
 
 ### DATA_QUALITY_CONTROL
-  Set of codes used to develop quality control report of all active/chosen seismological stations.
+  Set of codes used to develop quality control report of all active/chosen seismological stations.__
   **Codes:**
     - ```DATA_QC.sh``` -> Bash code 
 
@@ -18,7 +18,7 @@ Python and Bash codes used in seismological data quality control, DAS measured d
 
 
 ### ISPAQ_CODES
-  Codes used to evaluate status of active seismological stations by using _ISPAQ_ [1] python library.
+  Codes used to evaluate status of active seismological stations by using _ISPAQ_ [^1] python library.
 
 
 ### MSEED_FILES_ANALYSIS
@@ -35,4 +35,4 @@ Python and Bash codes used in seismological data quality control, DAS measured d
 
 
 
-  [1]: [https://example.com "Example Dataset"](https://github.com/EarthScope/ispaq)
+  [^1]: [https://example.com "Example Dataset"](https://github.com/EarthScope/ispaq)
