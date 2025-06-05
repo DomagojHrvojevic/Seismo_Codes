@@ -44,5 +44,5 @@ Python and Bash codes used in seismological data quality control, DAS measured d
 
 
 
-[^1]: [ISPAQ - Instrumental Seismic Performance Analysis using Quality metrics](https://github.com/insarag/ISPAQ)
-[^2]: [ObsPy - A Python Toolbox for Seismology](https://github.com/obspy/obspy)
+[^1]: [ISPAQ - Python command line script that uses R packages to calculate seismology data quality metrics.](https://github.com/EarthScope/ispaq)
+[^2]: [ObsPy - A Python Toolbox for seismology/seismological observatories](https://github.com/obspy/obspy)
