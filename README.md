@@ -11,8 +11,8 @@ Python and Bash codes used in seismological data quality control, DAS measured d
   * `grab_weekly_stations_data.py:` Python code for extracting weekly stations data and making them available locally.
   * `plot_ISPAQ.py:` Python code for plotting useful information collected by **ISPAQ** python library.
   * `plot_ISPAQ_availability.py:` Python code for creating plots of data availability by using information collected by **ISPAQ** python library.
-  * `smartsolo_qc_obspy.py:` Python code that generate a pdf quality control analysis report of collected SmartSolo seismological stations data.
-  * `stanice_backup_qc.py:` Python code for creating a pdf file of quality control analysis of seismological stations backup data.
+  * `smartsolo_qc_obspy.py:` Python code that generates a .pdf quality control analysis report of collected SmartSolo seismological stations data.
+  * `stanice_backup_qc.py:` Python code for creating a .pdf file of quality control analysis of seismological stations backup data.
   * `stanice_backup_qc_obspy.py:` Python code for generating PSD/PDF graphs with **ObsPy** for stations that haven't got one created from **ISPAQ**.
 <kbd>
   <p align="center">
@@ -75,12 +75,12 @@ Python and Bash codes used in seismological data quality control, DAS measured d
 
 <ins>**Scripts:**</ins>
   * `ISPAQ_Status.py:` Python code that reads the status .txt files simpleMetrics and PSDMetrics, and outputs errors for seismograph stations. A short error report is sent via email by running the Bash script _mail.sh_.
-  * `ISPAQ_Status_test:` Simmilar to _ISPAQ_Status.py_ but for testing seismo-instruments.
+  * `ISPAQ_Status_test:` Similar to _ISPAQ_Status.py_ but for testing seismo-instruments.
   * `mail.sh:` Bash script to send a report of all station problems as a .txt file via email by using **mailx** [^7].
   * `PDF_run.sh:` Bash script for generating files and graphs of the power spectral density (PSD) and probability density function (PDF) for each seismic station using the **ISPAQ** library.
   * `PDF_run_test.sh:` Same as _PDF_run.sh_, but for testing seismo-instruments.
   * `run.sh:` Bash script for calculating customStats .csv files (data quality information). Then, the _ISPAQ_Status.py_ script condenses all SimpleMetrics information into a short error report, which is subsequently sent via email using the _mail.sh_ script.
-  * `run_test.sh:` Simmilar to _run.sh_, but for testing seismo-instruments.
+  * `run_test.sh:` Similar to _run.sh_, but for testing seismo-instruments.
   * `run_v2.sh:` Similar to _run.sh_, but uses a different start-time variable.
 
 ## MSEED_FILES_ANALYSIS
@@ -95,7 +95,7 @@ Python and Bash codes used in seismological data quality control, DAS measured d
     * Converts daily data into hourly segments
     * Plots daily and hourly seismograms
     * Calculates daily and hourly Power Spectral Density (PSD) and Probability Density Function (PDF)
-    * Generates daily and hourly summary reports
+    * generates daily and hourly summary reports
   * `format_smartsolo_to_sandi.py:` Formatting seismological data gathered by Smartsolo portable seismograph for SANDI software usage (hourly segments).
   * `MSEED_files_assimilation.py:` Python code for assimilating two different data files: one from seiscomp (network transfer) and other from datalogger (data recorder). Taking into account file naming, MiniSEED status, data availability.
   * `MSEED_files_assimilation_origin_not_important.py:` Similar to _MSEED_files_assimilation.py_, but this script is intended for merging two MiniSEED files of unknown origin.
@@ -116,9 +116,9 @@ Python and Bash codes used in seismological data quality control, DAS measured d
 
 <ins>**Scripts:**</ins>
   * `PLIT_station_visualization_with_folium.py:` Plotting stations on base map with **Folium** [^10] python library.
-  * `Stations_visualization.py:` Python code for creating a _.gif_ file that visualizes the locations of all seismic stations from the stations.gpkg file, with each station displaying its metadata. Python librarys **geopandas** [^11] and **contextily** [^12] are used.
+  * `Stations_visualization.py:` Python code for creating a _.gif_ file that visualizes the locations of all seismic stations from the stations.gpkg file, with each station displaying its metadata. Python libraries **geopandas** [^11] and **contextily** [^12] are used.
   * `Stations_visualization_PLIT_basemap.py:` Python script for visualizing all seismo-stations locations for seismo-project. Using **geopandas** and **mpl_toolkits.basemap** libraries.
-  * `Stations_visualization_PLIT_contextily.py:` Simmilar to _Stations_visualization_PLIT_basemap.py_, but this time using **geopandas** and **contextily**.
+  * `Stations_visualization_PLIT_contextily.py:` Similar to _Stations_visualization_PLIT_basemap.py_, but this time using **geopandas** and **contextily**.
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/f4603cf5-5f38-4eb6-a29d-9ebc466452c5" height="200">
