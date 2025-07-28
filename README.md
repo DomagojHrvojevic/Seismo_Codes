@@ -29,7 +29,7 @@ Python and Bash codes used in seismological data quality control, DAS measured d
   </p>
 </kbd>
   <p align="center">
-    <a href="WEEKLY_REPORT_17_3_2025__23_3_2025.pdf">Figure 1. An example of weekly quality control report</a>
+    <strong>Figure 1.</strong> An example of weekly quality control report (<a href="WEEKLY_REPORT_17_3_2025__23_3_2025.pdf">PDF</a>)
   </p>
 
 ### DATA_SETUP_CODES
@@ -60,7 +60,7 @@ Python and Bash codes used in seismological data quality control, DAS measured d
   </p>
 </kbd>
   <p align="center">
-    Figure 2. An example showing the original DAS data, spike removal, downsampling, detrending, and bandpass filtering. The gauge length is set to 50 m.
+    <strong>Figure 2.</strong> An example showing the original DAS data, spike removal, downsampling, detrending, and bandpass filtering. The gauge length is set to 50 m.
   </p>
 
 <kbd>
@@ -69,10 +69,10 @@ Python and Bash codes used in seismological data quality control, DAS measured d
   </p>
 </kbd>
   <p align="center">
-    Figure 3. Strain rate data recorded by the FEBUS DAS instrument, shown in GIF format. The gauge length is set to 20 m.
+    <strong>Figure 3.</strong> Strain rate data recorded by the FEBUS DAS instrument, shown in GIF format. The gauge length is set to 20 m.
   </p>
 
-## _CODES
+## ISPAQ_CODES
   Codes used to evaluate status of active seismological stations by using **ISPAQ** python library.
 
 <ins>**Scripts:**</ins>
@@ -123,12 +123,12 @@ Python and Bash codes used in seismological data quality control, DAS measured d
   * `Stations_visualization_PLIT_contextily.py:` Simmilar to _Stations_visualization_PLIT_basemap.py_, but this time using **geopandas** and **contextily**.
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/f4603cf5-5f38-4eb6-a29d-9ebc466452c5" height="220">
-  <img src="https://github.com/user-attachments/assets/3ddd5e64-c0d7-458e-9998-3e7e7692f7e4" height="220">
-  <img src="https://github.com/user-attachments/assets/783933b6-06a7-4524-9505-13150ea75bb6" height="220">
+  <img src="https://github.com/user-attachments/assets/f4603cf5-5f38-4eb6-a29d-9ebc466452c5" height="200">
+  <img src="https://github.com/user-attachments/assets/3ddd5e64-c0d7-458e-9998-3e7e7692f7e4" height="200">
+  <img src="https://github.com/user-attachments/assets/783933b6-06a7-4524-9505-13150ea75bb6" height="200">
 </p>
 <p align="center">
-  Figure 4. Stations plotted from left to right using **Basemap**, **Folium**, and **Contextily**.
+  <strong>Figure 4.</strong> Stations plotted from left to right using <strong>Basemap</strong>, <strong>Folium</strong>, and <strong>Contextily</strong>.
 </p>
 
 ### References
