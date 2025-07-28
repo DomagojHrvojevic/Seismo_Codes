@@ -1,9 +1,7 @@
 # Seismo_Codes
 Python and Bash codes used in seismological data quality control, DAS measured data, ispaq data metrics, mseed files analysis, stations database, formatting mseed files and seismological data processing.
 
-## Description:
-
-### DATA_QUALITY_CONTROL
+## DATA_QUALITY_CONTROL
   Set of codes used to develop quality control report of all active/chosen seismological stations.  
   
   <ins>**Scripts:**</ins>
@@ -32,7 +30,7 @@ Python and Bash codes used in seismological data quality control, DAS measured d
     <strong>Figure 1.</strong> An example of weekly quality control report (<a href="WEEKLY_REPORT_17_3_2025__23_3_2025.pdf">PDF</a>)
   </p>
 
-### DATA_SETUP_CODES
+## DATA_SETUP_CODES
   Codes used to organize data files (renaming, selecting, converting).
 
 <ins>**Scripts:**</ins>
