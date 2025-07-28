@@ -62,10 +62,12 @@ Python and Bash codes used in seismological data quality control, DAS measured d
   <p align="center">
     Figure 2. An example showing the original DAS data, spike removal, downsampling, detrending, and bandpass filtering. The gauge length is set to 50 m.
   </p>
-  
+
+<kbd>
   <p align="center">
     <img src="https://github.com/user-attachments/assets/9e30cb89-c9a9-411a-bca3-1a7ed2ce5a1d" width="100%">
   </p>
+</kbd>
   <p align="center">
     Figure 3. Strain rate data recorded by the FEBUS DAS instrument, shown in GIF format. The gauge length is set to 20 m.
   </p>
@@ -117,8 +119,17 @@ Python and Bash codes used in seismological data quality control, DAS measured d
 <ins>**Scripts:**</ins>
   * `PLIT_station_visualization_with_folium.py:` Plotting stations on base map with folium [^10] python library.
   * `Stations_visualization.py:` Python code for creating a _.gif_ file that visualizes the locations of all seismic stations from the stations.gpkg file, with each station displaying its metadata. Python librarys geopandas [^11] and contextily [^12] are used.
-  * `Stations_visualization_PLIT_basemap.py:` Python script for visualizing all seismo-stations locations for seismo-project. Using geopandas and mpl_toolkits.basemap.
-  * `Stations_visualization_PLIT_contextily.py:` Simmilar to _Stations_visualization_PLIT_basemap.py_, but this time using contextily.
+  * `Stations_visualization_PLIT_basemap.py:` Python script for visualizing all seismo-stations locations for seismo-project. Using geopandas and mpl_toolkits.basemap libraries.
+  * `Stations_visualization_PLIT_contextily.py:` Simmilar to _Stations_visualization_PLIT_basemap.py_, but this time using geopandas and contextily.
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/f4603cf5-5f38-4eb6-a29d-9ebc466452c5" height="220">
+  <img src="https://github.com/user-attachments/assets/3ddd5e64-c0d7-458e-9998-3e7e7692f7e4" height="220">
+  <img src="https://github.com/user-attachments/assets/783933b6-06a7-4524-9505-13150ea75bb6" height="220">
+</p>
+<p align="center">
+  Figure 4. Stations plotted from left to right using Basemap, Folium, and Contextily.
+</p>
 
 
 [^1]: [ISPAQ    - python command line script that uses R packages to calculate seismology data quality metrics](https://github.com/EarthScope/ispaq)
